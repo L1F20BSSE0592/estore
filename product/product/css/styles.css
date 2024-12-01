@@ -1,0 +1,45 @@
+/* 
+
+HEADER - SECTION
+
+*/
+
+.header {
+  margin-bottom: 10rem !important;
+}
+
+/* 
+
+PRODUCT LIST - SECTION
+
+*/
+.product-list {
+  width: 100%;
+  background: white;
+  margin-bottom: 50px;
+}
+.product-list * {
+  font-weight: 100;
+}
+
+.new-arrival-content {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding-inline: 5rem;
+}
+h1 {
+  color: black !important;
+  font-weight: bold;
+  font-size: 48px !important;
+  width: 100%;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.new-arrival-content article img {
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 1/1;
+  margin-bottom: 1.8rem;
+}
